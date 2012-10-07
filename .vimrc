@@ -29,9 +29,6 @@ set incsearch
 set listchars=tab:>-,trail:.,eol:-
 nmap <silent> <leader>s :set nolist!<CR>
 
-cmap W w
-cmap Q q
-
 set shortmess=atI
 
 set visualbell
@@ -47,7 +44,6 @@ set smartindent
 
 " File specific
 
-autocmd Filetype py set ts=4 sw=4 sts=4 expandtab colorcolumn=80
 autocmd Filetype c,cpp,h set ts=2 sw=2 sts=2 expandtab colorcolumn=79
 autocmd Filetype java set ts=2 sw=2 sts=2 expandtab colorcolumn=80
 autocmd Filetype html,css set ts=2 sw=2 sts=2 noexpandtab colorcolumn=120
